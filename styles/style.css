@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 75%;
+  max-width: 330px;
+  /* min-width: 280px; */
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 15px 15px 0px hsl(0, 0%, 7%);
+}
+
+.learning-btn {
+  background-color: hsl(47, 88%, 63%);
+  padding: 6px 10px;
+  border: none;
+  color: hsl(0, 0%, 7%);
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.published-date {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.course-title {
+  font-weight: 800;
+  margin-bottom: 18px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.course-title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.profile-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 40px;
+  margin-right: 12px;
+}
+
+.username {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  width: 85%;
+  max-width: 450px;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
